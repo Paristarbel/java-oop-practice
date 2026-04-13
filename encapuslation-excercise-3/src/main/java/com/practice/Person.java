@@ -32,7 +32,7 @@ public class Person {
     }
     public void setHeight(double height){
         if(height <0 || height >3000){
-            System.out.println("Age must be greater than 0 and less than 300");
+            System.out.println("Height must be greater than 0 and less than 300");
         }else{
             this.height=height;
         }
