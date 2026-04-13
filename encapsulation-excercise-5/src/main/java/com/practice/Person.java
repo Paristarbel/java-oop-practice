@@ -2,27 +2,24 @@ package com.practice;
 
 public class Person {
 
-    // TODO: private fields
+    // TODO: add private fields
     private String name;
     private int age;
 
-    // TODO: default constructor
+
     public Person(){
         this.name="Unknown";
         this.age=0;
 
     }
-    
-
-    // TODO: parameterized constructor
-    public Person(String name,int age,double height,double weight){
+    public Person(String name,int age){
         this.name=name;
         setAge(age);
 
     }
 
-    // TODO: setters
-     public void setName(String name){
+    // TODO: implement setters
+    public void setName(String name){
         this.name=name;
     }
     public void setAge(int age){
@@ -33,9 +30,8 @@ public class Person {
         }
 
     }
-
-    // TODO: getters
-        public String getName(){
+    // TODO: implement getters
+    public String getName(){
         return this.name;
     }
     public int getAge(){
@@ -43,11 +39,11 @@ public class Person {
     }
 
 
-    // TODO: isAdult()
-      public boolean isAdult(){
+    public boolean isAdult(){
         return age >=18;
 
     }
+
 
 
 }
